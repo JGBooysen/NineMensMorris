@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b470fa43-d7ee-4e90-b7b7-d996ed9fc5e7" name="Default" comment="Intitial commit and push for later refactoring.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/application/NineMensMorrisApplication.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/controller/BoardSceneController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/controller/MainSceneController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/controller/SceneController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/AiPlayer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/BoardState.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/Edge.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/GameException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/GameState.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/HumanPlayer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/LocalGameState.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/Player.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/Point.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/game/Token.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../../../../IdeaProjects/PokemonBattle/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../../../../IdeaProjects/PokemonBattle/src/test/java/BattleTest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../../../../IdeaProjects/shapes/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/application/TaxFreeInterestException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/student.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NineMensMorris.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/application/NineMensMorrisApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/controller/BoardSceneController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/controller/MainSceneController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/controller/SceneController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/AiPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/BoardState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Edge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/GameException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/GameState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/HumanPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/LocalGameState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Point.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Token.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/za/co/openwindow/ninemensmorris/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/za/co/openwindow/ninemensmorris/view/BoardScene.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/za/co/openwindow/ninemensmorris/view/MainScene.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/view/BoardScene.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/co/openwindow/ninemensmorris/view/MainScene.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../NineMensMorris/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../NineMensMorris/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../NineMensMorris/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../NineMensMorris/src/main/java/za/co/openwindow/ninemensmorris/game/GameException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../NineMensMorris/src/test/java/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Project Planning/nine-mens-morris-master/NineMensMorris/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/IdeaProjects/University/src/main/java/diploma/OrientalStudies.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/IdeaProjects/University/src/main/java/funds/Revenue.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/IdeaProjects/University/src/main/java/person/Lecturer.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/IdeaProjects/University/src/main/java/person/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/IdeaProjects/University/src/main/java/person/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IdeaIC2016.1/options/git.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IdeaIC2016.1/options/gradle.run.settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IdeaIC2016.1/options/jdk.table.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IdeaIC2016.1/options/updates.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0_RC3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_RC3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_RC1.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/CivilBank.iml" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/CivilBank.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/pom.xml" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/ViewAccountDetailController.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/ViewAccountDetailController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/ViewClientDetailController.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/ViewClientDetailController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/Account.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/ChequeAccount.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/ChequeAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/Client.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/DiamondCheque.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/DiamondCheque.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/EasyAccessSavings.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/EasyAccessSavings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/GoldCheque.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/GoldCheque.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/SavingsAccount.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/SavingsAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/TaxFreeSavings.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/TaxFreeSavings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/EditClient.fxml" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/EditClient.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/Master.fxml" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/Master.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/test/java/MyTests.java" afterPath="$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/test/java/MyTests.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Maven__com_beust_jcommander_1_64.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/libraries/Maven__com_beust_jcommander_1_64.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchClient.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/SearchClient.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewAccountDetail.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/ViewAccountDetail.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VIewClientDetail.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/VIewClientDetail.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewClients.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/ViewClients.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/images/logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/test/java/MyTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CivilBank.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/CivilBank.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+    <push-targets>
+      <push-target-info target-remote="NineMensMorris" target-branch="master" repo="$USER_HOME$" source="master" />
+    </push-targets>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/application/NineMensMorrisApplication.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/game/BoardState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/game/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/game/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/RockPaperScissorsGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/rockpaperscissors/application/RockPaperScissorsApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/controller/SceneController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/application/RockPaperScissorsApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/controller/BoardSceneController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/controller/MainSceneController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/za/co/openwindow/rockpaperscissors/view/BoardScene.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/za/co/openwindow/rockpaperscissors/view/MainScene.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/game/Cell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/game/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/game/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/rockpaperscissors/game/BoardState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/GameHasException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/AiPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/HumanPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/LocalGameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Cell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/GameException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/BoardState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/application/NineMensMorrisApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="687" />
+    <option name="y" value="22" />
+    <option name="width" value="1233" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NineMensMorris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NineMensMorris" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NineMensMorris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NineMensMorris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NineMensMorris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NineMensMorris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NineMensMorris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NineMensMorris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NineMensMorris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NineMensMorris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ninemensmorris" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NineMensMorris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NineMensMorris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ninemensmorris" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NineMensMorris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NineMensMorris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ninemensmorris" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NineMensMorris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NineMensMorris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ninemensmorris" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.26950353" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="za.co.openwindow.view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="za.co.openwindow.ninemensmorris.game" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/za/co/openwindow/rockpaperscissors/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RUN">
+    <configuration name="RUN" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="za.co.openwindow.ninemensmorris.application.NineMensMorrisApplication" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NineMensMorris" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="za.co.openwindow.ninemensmorris.application.NineMensMorrisApplication" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RockPaperScissors" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b470fa43-d7ee-4e90-b7b7-d996ed9fc5e7" name="Default" comment="" />
+      <created>1508229078825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508229078825</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="687" y="22" width="1233" height="977" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.49706128" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282887" sideWeight="0.5029387" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282887" sideWeight="0.49706128" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.669383" sideWeight="0.4869857" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26532325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intitial commit and push for later refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Intitial commit and push for later refactoring." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/test/java/MyTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/CivilBank.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/GameException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#338#339#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+            <element signature="e#440#441#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/BoardState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="48" column="60" lean-forward="false" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/game/AiPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/openwindow/ninemensmorris/application/NineMensMorrisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/dictionaries/alex.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/libraries/Maven__junit_junit_4_12.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/libraries/Maven__org_testng_testng_6_11.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/application/AccountFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/application/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/application/CivilBankApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/application/ExistingAccountsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/application/InsufficientFundsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/application/SceneSwitcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/EditClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/MasterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/MenuBarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/NewClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/SceneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/SearchClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/ViewAccountDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/ViewClientDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/controller/ViewClientsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/AccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/ChequeAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/DiamondCheque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/EasyAccessSavings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/GoldCheque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/SavingsAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/java/za/co/openwindow/civilbank/model/TaxFreeSavings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/EditClient.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/HelloWorld.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/Master.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Module 3/Week 7/Project/src/main/resources/fxml/MenuBar.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8(31)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NineMensMorris</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
